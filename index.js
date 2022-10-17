@@ -1,12 +1,15 @@
 import {materias} from "./materias.js";
 import pkg from 'colors'
+import {eliminar} from "./eliminar.js";
+import {actualizar} from "./actualizar.js";
 
 //console.log(materias);
 
 //metodos de los objetos Arreglo
 //foreach:recorre un arreglo
+/*
 materias.forEach((materia)=>{
-    if(materia.tipo==='transversal'){
+   if(materia.tipo==='transversal'){
         console.log(`materias:${materia.nombre}`.yellow)
         console.log(`materias:${materia.instructor}`.blue)
     }
@@ -24,13 +27,13 @@ const profesores = materias.map((materia)=>{
 const PHP = materias.filter((materia)=>{
     return materia.instructor==="yaneth castillo"
 })
-
+*/
 
 //push: agrega un elemento a un arreglo:
 materias.push({
-    id:4,
+    id:5,
     nombre:"diseño",
-    instructor:"julian urrea",
+    instructor:"carolina forero",
     tipo: "tecnica",
     notas: [
      4.5,
@@ -41,9 +44,9 @@ materias.push({
 console.log(materias)
  //splice: delete
  
- materias.splice(0,1)
+ /*materias.splice(0,1)
  console.log(materias)
  //actualizar:findindex
 
-console.log(materia.actualizar)
+console.log(materia.actualizar)*/
 
