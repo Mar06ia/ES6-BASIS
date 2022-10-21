@@ -3,7 +3,7 @@ import {materias} from "./materias.js";
 export const actualizar=
 materias.splice(2,3, {
     id: 4,
-    nombre: "diseño",
+    nombre: "Calidad",
     instructor: "adriana duarte",
     tipo: "transversal",
     notas: [
@@ -12,3 +12,5 @@ materias.splice(2,3, {
         4.0
     ]
 })
+
+

@@ -1,6 +1,7 @@
+//await
 const needle = require("needle");
 
-let endpoint = "https://pokeapi.co/api/v2/type";
+let endpoint = "https://lucifer-quotes.vercel.app/api/quotes/5";
 
 
 const f = async()=>{
@@ -8,7 +9,7 @@ const f = async()=>{
         let response = await needle('get',endpoint.quotes)
             
         response.body.results.forEach(tipo=>{
-            console.log(`Tipo: ${tipo.name.quotes}`);
+            console.log(`Frase: ${tipo.name.quotes}`);
             console.log('**********************')    
         });
     } catch (error) {
