@@ -16,9 +16,6 @@ const animes = async(config) =>{
 
 // animes(config)
 axios(config)
-.then((response)=>{
-    console.log(response.data.anime);
-})
-.catch((error)=>{
+.then((response)=>{o
     console.log(error)
 })
