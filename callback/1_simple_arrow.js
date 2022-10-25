@@ -13,9 +13,7 @@ console.log(JSON.parse(response))
 }
 
 const fallo =(status)=>{
-    console.log(status)
-}
-
+    console.log(status)}
 
 const get_data=(endpoint, exito, fallo)=>{
     //CREAMOS EL OBJETO DE CONEXION A LA API

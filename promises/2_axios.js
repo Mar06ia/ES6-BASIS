@@ -2,7 +2,7 @@
 //node promises/2_axios.js
 import axios from 'axios';
 
-const  axios  =  require ( 'axios' ) . predetermi ;
+//const  axios  =  require ( 'axios' );
 
 
 let config = {

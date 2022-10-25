@@ -1,6 +1,6 @@
 {
   "name": "es6-basis",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "aprender ES6 basico",
   "main": "index.js",
@@ -32,6 +32,7 @@
     "commonjs": "^0.0.1",
     "needle": "^3.1.0",
     "request": "^2.88.2",
+    "xml": "^1.0.1",
     "xmlhttprequest": "^1.8.0"
   }
 }

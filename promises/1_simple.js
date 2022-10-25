@@ -1,10 +1,11 @@
 const { resolve } = require('path')
 const { exitCode } = require('process')
 const { threadId } = require('worker_threads')
-const XMLResquest = require('xmlhttprequest')
+let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
 
 const url="https://pokeapi.co/api/v2/type"
-/*
+
 //funcion conectar una api 
 //en modo asincrono
 const get_data =(endpoint)=>{
@@ -24,15 +25,19 @@ const get_data =(endpoint)=>{
             reject(h.status)
         }
     }
-    console.log(promise);
+    
+    })
+    return promise
+
 }
-*/
-/*+
+
 //invocar la funcion
 get_data(url)
     .then((response)=> {
-        exito(response)
+        console.log(JSON.parse(response))
 })
-.catch((status)=>){
-    fallo(status)
-}*/
+.catch((status)=>{
+        console.log(status)
+
+
+})
